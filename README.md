@@ -165,6 +165,17 @@ Attack-Proof-Web-Server/
 │   └── s3-backup.png
 └── README.md
 </pre>
+
+## Testing Results
+
+
+
+![Website via ALB](final-website-alb.png)
+
+
+
+phpinfo() enabled temporarily for testing only; disabled in current deployment.
+
 ## Conclusion
 - Successfully built a *scalable and resilient AWS web server architecture* with high availability
 - Implemented *automated backups, monitoring, alerting, and recovery mechanisms*
