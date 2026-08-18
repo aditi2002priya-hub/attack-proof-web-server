@@ -155,15 +155,16 @@ The project demonstrates practical experience in designing and managing an AWS-b
 
 ## Repository Structure
 
-> Attack-Proof-Web-Server/  
-> ├── screenshots/  
-> │   ├── architecture-diagram.png     
-> │   ├── final-website-alb.png  
-> │   ├── alb-target-group.png  
-> │   ├── auto-scaling-group.png  
-> │   └── s3-backup.png  
-> └── README.md
-
+<pre>
+Attack-Proof-Web-Server/
+├── screenshots/
+│   ├── architecture-diagram.png     
+│   ├── final-website-alb.png
+│   ├── alb-target-group.png
+│   ├── auto-scaling-group.png
+│   └── s3-backup.png
+└── README.md
+</pre>
 ## Conclusion
 - Successfully built a *scalable and resilient AWS web server architecture* with high availability
 - Implemented *automated backups, monitoring, alerting, and recovery mechanisms*
