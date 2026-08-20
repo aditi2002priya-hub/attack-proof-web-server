@@ -168,13 +168,17 @@ Attack-Proof-Web-Server/
 
 ## Testing Results
 
+### Security Testing
+phpinfo.php was found publicly accessible, exposing PHP version and server config (CWE-200: Information Exposure).
+
 
 
 ![Website via ALB](final-website-alb.png)
 
-
-
 phpinfo() enabled temporarily for testing only; disabled in current deployment.
+*Mitigation:* Immediate fix via .htaccess deny; Scalable fix via AWS WAF rule blocking /phpinfo.php (403) at ALB.
+
+*Status:* Planned as next-phase enhancement.
 
 ## Conclusion
 - Successfully built a *scalable and resilient AWS web server architecture* with high availability
