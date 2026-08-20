@@ -176,9 +176,13 @@ phpinfo.php was found publicly accessible, exposing PHP version and server confi
 ![Website via ALB](final-website-alb.png)
 
 phpinfo() enabled temporarily for testing only; disabled in current deployment.
+
 *Mitigation:* Immediate fix via .htaccess deny; Scalable fix via AWS WAF rule blocking /phpinfo.php (403) at ALB.
 
-*Status:* Planned as next-phase enhancement.
+**Status: Fixed & Secured**
+
+### Final Result - Attack Blocked
+![final-attack-blocked-proof](final-attack-blocked-proof.png)
 
 ## Conclusion
 - Successfully built a *scalable and resilient AWS web server architecture* with high availability
